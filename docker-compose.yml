@@ -9,8 +9,6 @@ services:
     build:
       context: .
       dockerfile: environment/Dockerfile
-    ports:
-      - 3000:3000
     volumes:
       - "./aplicacao:/home"
 
