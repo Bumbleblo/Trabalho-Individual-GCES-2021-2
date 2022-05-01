@@ -10,7 +10,7 @@ services:
       context: .
       dockerfile: environment/Dockerfile
     volumes:
-      - "./aplicacao:/home"
+      - "./:/home"
 
   loadbalancer:
     image: nginx
